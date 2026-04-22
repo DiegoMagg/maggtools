@@ -9,6 +9,7 @@ dependencies = [
     "lxml>=5.2.0",
     "requests>=2.32.0",
     "signxml>=4.0.0",
+    "streamlit",
 ]
 
 [tool.ruff]
