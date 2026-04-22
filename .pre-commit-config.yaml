@@ -1,0 +1,28 @@
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.3.4
+  hooks:
+    - id: ruff
+      args: [ --fix ]
+    - id: ruff-format
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.5.0
+  hooks:
+    - id: fix-byte-order-marker
+    - id: check-ast
+    - id: check-executables-have-shebangs
+    - id: check-merge-conflict
+    - id: check-json
+    - id: check-symlinks
+    - id: check-vcs-permalinks
+    - id: check-toml
+    - id: check-xml
+    - id: debug-statements
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: detect-private-key
+    - id: forbid-new-submodules
+    - id: no-commit-to-branch
+    - id: trailing-whitespace
+      args: [--markdown-linebreak-ext=md]

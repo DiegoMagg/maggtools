@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local secrets/certificates
+*.pfx
+*.pem
+*.key
+
+# Runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+
+# Generated payload/response files
+dps_payload_debug.json
+nfse_response.txt
+dps_signed.xml
+consultas/
+emissoes/
+nfse.db
+
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+nfse.db
